@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # Add content to your Streamlit app
-st.markdown("# 👋 Welcome to My Sales Forecasting App Of Products Across Favorita stores")
+st.markdown("# 👋 Welcome To Team Cape Cod's Sales Forecasting App Of Products Across Favorita stores")
 
 # Display the waving GIF
 st.image("https://www.animatedimages.org/data/media/1645/animated-waving-image-0090.gif")
@@ -47,10 +47,10 @@ subheader_container = st.container()
 # Define the subheader content
 subheader_content = """
 <div class="slide-in-animation">
-<h3>Things You Can Do On This Website:</h3>
+<h3>Things You Can Do On This App:</h3>
 <ul>
   <li>Forecast Sales of a Specific Date for Favorita Store</li>
-  <li>Interact with the dataset</li>
+  <li>View the dataset and interact with a visual showing daily sales across stores</li>
   <li>Get to know more about the team</li>
 </ul>
 </div>
