@@ -17,6 +17,8 @@ def load_data(path):
 # Load the dataset
 data_path = "Dataset\\train_data.csv"
 load_df = load_data(data_path)
+
+#load test data to see model's performnce
 test_df=pd.read_csv("Dataset\\test.csv")
 
 # Define section
