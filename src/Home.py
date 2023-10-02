@@ -51,7 +51,7 @@ subheader_content = """
 <ul>
   <li>Forecast Sales of a Specific Date for Favorita Store</li>
   <li>View the dataset and interact with a visual showing daily sales across stores</li>
-  <li>Get to know more about the team</li>
+  <li>Get to know more about the team behind this app</li>
 </ul>
 </div>
 """
