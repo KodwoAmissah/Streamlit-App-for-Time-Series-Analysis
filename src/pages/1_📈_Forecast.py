@@ -8,12 +8,12 @@ from streamlit_lottie import st_lottie
 from datetime import datetime
 
 # Load the encoders from files
-LE = joblib.load('Encoders\\label_encoder.pkl')
-BE = joblib.load('Encoders\\binary_encoder.pkl')
-OE = joblib.load('Encoders\\ordinal_encoder.pkl')
+LE = joblib.load('C:\\Users\\User\\Desktop\\hub\\Streamlit-App-for-Time-Series-Analysis\\Encoders\\label_encoder.pkl')
+BE = joblib.load('C:\\Users\\User\\Desktop\\hub\\Streamlit-App-for-Time-Series-Analysis\\Encoders\\label_encoder.pkl')
+OE = joblib.load('C:\\Users\\User\\Desktop\\hub\\Streamlit-App-for-Time-Series-Analysis\\Encoders\\label_encoder.pkl')
 
 # Load the model
-model = joblib.load('Model\\model.pkl')
+model = joblib.load('C:\\Users\\User\\Desktop\\hub\\Streamlit-App-for-Time-Series-Analysis\\Model\\model.pkl')
 
 #define app section
 header=st.container()
