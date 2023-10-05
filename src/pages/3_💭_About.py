@@ -141,7 +141,7 @@ if st.button("Check out my github"):
 
 st.header("Leon Maina: Data Analyst")
 st.info('Data Analytics || Cloud Computing || AI/ML || Quantum Computing')
-lead=Image.open('Team photos\WhatsApp Image 2023-10-02 at 11.28.44.jpg')
+lead=Image.open('Team photos/WhatsApp Image 2023-10-02 at 11.28.44.jpg')
 size=(720,720)
 lead_image=lead.resize(size)
 st.image(lead_image)
