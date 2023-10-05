@@ -6,6 +6,18 @@ from PIL import Image
 # Display the c title
 st.title("Learn About Team CapeCod")
 
+##set team image
+image = Image.open('Team logo/MicrosoftTeams-image (2).jpg.png')
+
+# Set the desired size 
+new_size = (1080, 722)
+
+# Resize the image
+resized_image = image.resize(new_size)
+
+##set the image
+st.image(resized_image)
+
 
 
 ##info about the team
@@ -17,6 +29,10 @@ st.subheader("Below are the members")
 ##For members
 st.header("Kodwo Amissah-Mensah: Data Analyst(Team Lead)")
 st.info('Aspiring Data Analyst|Machine Learning|Python|SQL|Data Visualization')
+lead=Image.open('Team photos/photo_2023-03-16_18-13-22.jpg')
+size=(720,720)
+lead_image=lead.resize(size)
+st.image(lead_image)
 
 st.subheader("Connect with Kodwo:")
 
@@ -41,6 +57,10 @@ if st.button("Check out my github repositories"):
 
 st.header("Regina Crabbe: Data Analyst")
 st.info('Data Analyst|Lecturer|Researcher|PHD Student')
+lead=Image.open('Team photos/WhatsApp Image 2023-09-28 at 12.19.59.jpg')
+size=(720,720)
+lead_image=lead.resize(size)
+st.image(lead_image)
 st.subheader("Connect with Regina:")
 
 
@@ -64,7 +84,10 @@ if st.button("Github"):
 ##Aliyyah's info
 st.header("Aliyyah Adebayo: Data Analyst")
 st.info('Computer science student|Data Analytic enthusiast|chess lover')
-
+lead=Image.open('Team photos/photo_2023-09-28_16-55-16.jpg')
+size=(720,720)
+lead_image=lead.resize(size)
+st.image(lead_image)
 st.subheader("Connect with Aliyyah:")
 
 
@@ -90,6 +113,9 @@ if st.button("Github Repository"):
 
 st.header("Alvin Momoh: Data Analyst")
 st.info('Data Analyst || Data Analytics Professional')
+lead=Image.open('Team photos/WhatsApp Image 2023-09-28 at 19.48.07.jpg')
+
+st.image(lead)
 
 st.subheader("Connect with Alvin:")
 
@@ -115,6 +141,10 @@ if st.button("Check out my github"):
 
 st.header("Leon Maina: Data Analyst")
 st.info('Data Analytics || Cloud Computing || AI/ML || Quantum Computing')
+lead=Image.open('Team photos\WhatsApp Image 2023-10-02 at 11.28.44.jpg')
+size=(720,720)
+lead_image=lead.resize(size)
+st.image(lead_image)
 st.subheader("Connect with Leon:")
 
 
