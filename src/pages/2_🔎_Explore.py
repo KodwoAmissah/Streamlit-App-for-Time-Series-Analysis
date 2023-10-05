@@ -7,7 +7,7 @@ import plotly.express as px
 import plotly
 
 #load model
-model=joblib.load("Model\\model.pkl")
+model=joblib.load("Model/model.pkl")
 
 # Define functions
 def load_data(path):
@@ -15,11 +15,11 @@ def load_data(path):
     return dataset
 
 # Load the dataset
-data_path = "Dataset\\train_data.csv"
+data_path = "Dataset/train_data.csv"
 load_df = load_data(data_path)
 
 #load test data to see model's performnce
-test_df=pd.read_csv("Dataset\\test.csv")
+test_df=pd.read_csv("Dataset/test.csv")
 
 # Define section
 data = st.container()
