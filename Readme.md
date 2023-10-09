@@ -6,7 +6,7 @@ The aim of this project is to deploy a time series model.From training, my model
 
 ## What you will find in this repository
 - The source code can be found in the src folder
-- The needed CSV files can be found in the datase folder
+- The needed CSV files can be found in the dataset folder
 - The Notebook folder contains the Notebook I used for my EDA and a comparison of the model 
 - I used the Virtualevn Python environment
 - The model can be found in the model folder
@@ -26,14 +26,11 @@ For manual installation, you need to have [`Python3`](https://www.python.org/) o
         
   - Sreamlit:
     
-    - Home
+    - src
 
           streamlit run src\Home.py
 
 ## App In Use 😃        
-
-
-https://github.com/KodwoAmissah/Streamlit-App-for-Time-Series-Analysis/assets/137364174/a970e9d9-8dab-4822-aeeb-c1796ce5efb4
 
 
 
