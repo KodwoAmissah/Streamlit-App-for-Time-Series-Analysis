@@ -2,7 +2,7 @@
 
 
 ## OBJECTIVE
-The aim of this project is to deploy a time series model.From training my model of choice is the Linear Regression Model
+The aim of this project is to deploy a time series model.From training, my model of choice is the Linear Regression Model
 
 ## What you will find in this repository
 - The source code can be found in the src folder
