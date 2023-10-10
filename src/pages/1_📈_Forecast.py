@@ -98,10 +98,14 @@ with st.expander("Make a prediction", expanded=True):
         rounded_output = np.round(model_output, 2)
 
         # Add rounded predictions to the input_dict
-        input_dict["Total Sales"] = rounded_output
+        input_dict["Total Sales($)"] = rounded_output
 
-        # Display prediction message inside the expander
-        st.write(f"Your total predicted sales will be {rounded_output[0]}")
+        # Format the rounded output with bold and a dollar sign
+        formatted_output = f"<b>${rounded_output[0]}</b>"
+
+# Display prediction message inside the expander with HTML formatting
+        st.write(f"Your total predicted sales will be {formatted_output}", unsafe_allow_html=True)
+
 
 # Display the DataFrame outside the expander
 if show_prediction_message:
