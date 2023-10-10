@@ -33,6 +33,10 @@ For manual installation, you need to have [`Python3`](https://www.python.org/) o
 ## App In Use 😃        
 
 
+https://github.com/KodwoAmissah/Streamlit-App-for-Time-Series-Analysis/assets/137364174/0b5b59ed-315c-4d3d-9db8-e8c830e01c4e
+
+
+
 
 ## Summary
 
